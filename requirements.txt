@@ -1,0 +1,40 @@
+# ============================================
+# KAVACH 2.0 — Backend Dependencies
+# Production-Grade Golden Hour Intelligence Engine
+# ============================================
+
+# --- Core Framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# --- LLM & Orchestration ---
+langgraph==0.2.60
+langchain==0.3.14
+langchain-google-genai==2.0.8
+langchain-community==0.3.14
+google-generativeai==0.8.4
+
+# --- RAG & Embeddings ---
+faiss-cpu==1.9.0
+sentence-transformers==3.3.1
+
+# --- Graph Analysis ---
+networkx==3.4.2
+python-louvain==0.16
+
+# --- Document Generation ---
+python-docx==1.1.2
+
+# --- Data Processing ---
+numpy==2.2.1
+pandas==2.2.3
+
+# --- SSE Streaming ---
+sse-starlette==2.2.1
+
+# --- HTTP & Utils ---
+httpx==0.28.1
+aiofiles==24.1.0

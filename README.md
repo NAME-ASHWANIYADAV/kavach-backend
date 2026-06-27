@@ -1,3 +1,12 @@
+---
+title: Kavach Backend
+emoji: 🛡️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 <p align="center">
   <h1 align="center">🛡️ KAVACH 2.0 — Backend</h1>
   <p align="center">
